@@ -5,7 +5,6 @@
 using std::queue;
 using std::flush;
 using std::cout;
-using std::cout;
 
 class BinarySearchTree {
     public:
@@ -112,7 +111,7 @@ class BinarySearchTree {
     }
 
     void DFSPreOrder(){
-        DFSPreOrder(root);
+       if(root) DFSPreOrder(root);
     }
 
     void DFSInOrder(Node* currentNode){
