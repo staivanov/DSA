@@ -73,6 +73,7 @@ class Stack{
 
         if(isStackEmpty()){
          cout << "Stack is empty." << endl;
+            return;
         }
 
         cout << "Top: " << top->value << endl;
